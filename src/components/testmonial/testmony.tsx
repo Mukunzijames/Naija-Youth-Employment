@@ -126,8 +126,8 @@ export function CarouselSize() {
       <CarouselContent>
         {testimonials.map((testimonial, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="p-1">
-              <Card className="bg-white shadow-lg">
+            <div className="p-5 w-[380px] ">
+              <Card className="bg-white shadow-lg ">
                 <CardContent className="flex flex-col items-start p-6">
                   <div className="mb-4 h-12 w-12 bg-orange-500 rounded-full">
                     <svg

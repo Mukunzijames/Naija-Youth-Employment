@@ -1,4 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-  
+
+h1 {
+  font-size: 50px;
+  line-height: 70px;
+  @apply text-[30px] md:text-[50px];
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 60px;
+  @apply text-[16px] md:text-[40px];
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.backgroudAbout {
+  background: linear-gradient(
+    180deg,
+    #e2f0d8 0%,
+    #efffe5 38.33%,
+    #efffe5 56.29%,
+    #fff 100%
+  );
+}
+.backgroudFooter {
+    background: linear-gradient(
+      180deg,
+      #1b2016 0%,
+      #484948 38.33%,
+      #515050 56.29%,
+      #fff 100%
+    );
+  }
