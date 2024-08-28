@@ -72,12 +72,10 @@ const MobileMenu = ({ isOpen }: MobileMenuProps) => {
             </li>
           </motion.ul>
         )}
-
         <li className="cursor-pointer">Company</li>
         <li className="cursor-pointer">FAQs</li>
         <li className="cursor-pointer">Blog</li>
       </ul>
-
       <div className="w-full h-[1px] bg-black/5 my-8"></div>
 
       <span className={cn("space-y-4 transition duration-300 ease-in-out")}>
