@@ -9,7 +9,6 @@ import { Input } from "../ui/input"
 interface MobileMenuProps {
   isOpen: boolean
 }
-
 const MobileMenu = ({ isOpen }: MobileMenuProps) => {
   const [isSelectorOpen, setIsSelectOpen] = useState<boolean>(false)
   useEffect(() => {
