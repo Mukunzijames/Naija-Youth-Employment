@@ -46,7 +46,6 @@ const MobileMenu = ({ isOpen }: MobileMenuProps) => {
             transition={{ duration: 0 }}
             className={cn(
               "space-y-6 flex flex-col transition duration-500 ease-in-out w-full items-start justify-start font-normal  translate-y-0"
-              // isSelectorOpen && "translate-y-[10px]"
             )}
           >
             <li className=" cursor-pointer transition duration-300 ease-in-out  w-full">
