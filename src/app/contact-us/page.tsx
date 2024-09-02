@@ -1,6 +1,5 @@
 import About from "@/components/about/about";
-import { CardsPaymentMethod } from "@/components/card/card";
-import { CardsReportIssue } from "@/components/contact/contact";
+
 import Footer from "@/components/footer/footer";
 import Navbar from "@/components/navBar/nav";
 import { CarouselSize } from "@/components/testmonial/testmony";
